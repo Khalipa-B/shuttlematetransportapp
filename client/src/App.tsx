@@ -10,6 +10,12 @@ import Notifications from "@/pages/notifications";
 import AuthWrapper from "@/components/layout/AuthWrapper";
 import { UserRole } from "@shared/schema";
 
+// Mobile components
+import MobileNavigation from "@/components/mobile/MobileNavigation";
+import AppInstallBanner from "@/components/mobile/AppInstallBanner";
+import OfflineIndicator from "@/components/mobile/OfflineIndicator";
+import { useIsMobile } from "@/hooks/useIsMobile";
+
 // Parent Pages
 import ParentDashboard from "@/pages/parent/dashboard";
 import ParentTracking from "@/pages/parent/tracking";
@@ -144,12 +150,27 @@ function Router() {
   );
 }
 
+function MobileAppContainer() {
+  const isMobile = useIsMobile();
+  
+  return (
+    <>
+      <OfflineIndicator />
+      <AppInstallBanner />
+      <div className="pb-16"> {/* Add padding to the bottom for the mobile nav */}
+        <Router />
+      </div>
+      {isMobile && <MobileNavigation />}
+    </>
+  );
+}
+
 function App() {
   return (
     <QueryClientProvider client={queryClient}>
       <TooltipProvider>
         <Toaster />
-        <Router />
+        <MobileAppContainer />
       </TooltipProvider>
     </QueryClientProvider>
   );
