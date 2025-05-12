@@ -48,7 +48,7 @@ export default function Home() {
         <div className="w-full max-w-md">
           <div className="text-center mb-10">
             <ShuttleMateLogo 
-              className="h-28 mx-auto mb-5" 
+              className="h-40 mx-auto mb-5" 
               variant="blue" 
               showFullLogo={false} 
             />
