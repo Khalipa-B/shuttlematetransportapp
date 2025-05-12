@@ -34,14 +34,14 @@
       "short_name": "Messages",
       "description": "View and send messages",
       "url": "/messages",
-      "icons": [{ "src": "/icons/icon-192x192.svg", "sizes": "192x192" }]
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
     },
     {
       "name": "Notifications",
       "short_name": "Alerts",
       "description": "View notifications and alerts",
       "url": "/notifications",
-      "icons": [{ "src": "/icons/icon-192x192.svg", "sizes": "192x192" }]
+      "icons": [{ "src": "/icons/icon-192x192.png", "sizes": "192x192" }]
     }
   ],
   "related_applications": [],
