@@ -63,7 +63,7 @@ export default function MobileNav({ isOpen, onClose, userRole }: MobileNavProps)
       <div className="bg-primary text-white w-64 h-full overflow-y-auto animate-slide-in-left">
         <div className="p-4 flex items-center justify-between border-b border-blue-800">
           <div className="flex items-center">
-            <ShuttleMateLogo className="h-10 mr-2" />
+            <ShuttleMateLogo className="h-10 mr-2" variant="white" />
             <h1 className="text-xl font-bold">ShuttleMate</h1>
           </div>
           <button onClick={onClose} className="text-white" aria-label="Close menu">

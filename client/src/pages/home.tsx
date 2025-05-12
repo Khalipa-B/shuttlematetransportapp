@@ -47,10 +47,10 @@ export default function Home() {
       <div className="flex-1 flex flex-col items-center justify-center px-4 sm:px-6 lg:px-8">
         <div className="w-full max-w-md">
           <div className="text-center mb-10">
-            <img 
-              src="/images/shuttlemate-logo-blue.png" 
-              alt="ShuttleMate Logo" 
-              className="h-28 mx-auto mb-5 object-contain" 
+            <ShuttleMateLogo 
+              className="h-28 mx-auto mb-5" 
+              variant="blue" 
+              showFullLogo={false} 
             />
             <h2 className="text-3xl font-extrabold text-gray-900">
               Welcome to ShuttleMate

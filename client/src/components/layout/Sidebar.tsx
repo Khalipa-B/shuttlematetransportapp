@@ -50,7 +50,7 @@ export default function Sidebar({ userRole }: SidebarProps) {
   return (
     <aside className="w-64 bg-primary text-white h-screen fixed shadow-md">
       <div className="p-4 flex items-center border-b border-blue-800">
-        <ShuttleMateLogo className="h-10 mr-2" />
+        <ShuttleMateLogo className="h-10 mr-2" variant="white" />
         <h1 className="text-xl font-bold">ShuttleMate</h1>
       </div>
       <nav className="mt-4">
