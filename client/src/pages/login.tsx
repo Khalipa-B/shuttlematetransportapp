@@ -25,8 +25,7 @@ export default function Login() {
     <div className="flex flex-col items-center justify-center min-h-screen px-4 py-12 bg-white">
       <div className="w-full max-w-md">
         <div className="text-center mb-10">
-          <ShuttleMateLogo className="h-24 mx-auto mb-2" />
-          <p className="text-gray-600 text-lg">Safe. Smart. Connected</p>
+          <ShuttleMateLogo className="h-32 mx-auto" showFullLogo={true} />
         </div>
         
         <Card>

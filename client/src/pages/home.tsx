@@ -37,8 +37,7 @@ export default function Home() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <header className="flex justify-between items-center py-6">
           <div className="flex items-center">
-            <ShuttleMateLogo className="h-12" />
-            <h1 className="ml-3 text-2xl font-bold text-primary">ShuttleMate</h1>
+            <ShuttleMateLogo className="h-16" showFullLogo={false} />
           </div>
           <div>
             {isAuthenticated ? (
