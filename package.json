@@ -1,18 +1,18 @@
 {
-  "name": "shuttlemate-transport-app",
+  "name": "shuttlemate-mobility-app",
   "version": "1.0.0",
-  "description": "School Transport Management System",
-  "main": "server/index.js",
+  "description": "School Transport Management System - ShuttleMate",
+  "main": "server/server.js",
   "type": "commonjs",
   "scripts": {
     "dev": "concurrently \"npm run server:dev\" \"npm run client:dev\"",
-    "server:dev": "cd server && nodemon index.js",
+    "server:dev": "cd server && nodemon server.js",
     "client:dev": "cd client && npm run dev",
     "build": "cd client && npm run build",
-    "start": "cd server && node index.js",
+    "start": "cd server && node server.js",
     "install:all": "npm install && cd client && npm install && cd ../server && npm install"
   },
-  "keywords": ["school", "transport", "tracking", "management"],
+  "keywords": ["school", "transport", "tracking", "management", "shuttlemate"],
   "author": "ShuttleMate Team",
   "license": "MIT",
   "devDependencies": {
