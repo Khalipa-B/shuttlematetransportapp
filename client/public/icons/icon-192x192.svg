@@ -1,6 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="192" height="192" viewBox="0 0 192 192">
-  <circle cx="96" cy="96" r="96" fill="#0047AB"/>
-  <circle cx="96" cy="72" r="48" fill="#0047AB" stroke="white" stroke-width="4.8"/>
-  <path d="M96 144 L144 72 L48 72 Z" fill="#0047AB" stroke="white" stroke-width="4.8"/>
-  <text x="96" y="108" font-family="Arial" font-size="48" font-weight="bold" fill="white" text-anchor="middle">SM</text>
-</svg>
